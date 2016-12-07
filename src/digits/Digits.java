@@ -13,7 +13,7 @@ import com.pi4j.io.gpio.RaspiPin;
 import java.util.ArrayList;
 
 /**
- *  Library to display digits 0 to 9 on two separate 7-segment displays via Raspberry PI GPIO pins
+ *  Library to display digits 0 to 9 on two separate 7-segment displays via Raspberry PI GPIO pins.
  * @author Ian Van Schaick
  */
 public class Digits {
