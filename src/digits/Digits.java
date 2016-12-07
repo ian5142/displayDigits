@@ -89,8 +89,10 @@ public class Digits {
     private void setArrayList() {
         ArrayList<GpioPinDigitalOutput> pins = new ArrayList<GpioPinDigitalOutput> ();
         ArrayList<GpioPinDigitalOutput> pins2 = new ArrayList<GpioPinDigitalOutput> ();
+        firstDigit = new ArrayList<ArrayList<GpioPinDigitalOutput>> ();
+        secondDigit = new ArrayList<ArrayList<GpioPinDigitalOutput>> ();
         
-        for (int i = 0; i < 11 ; i++) {
+        for (int i = 0; i <= 8 ; i++) {
             if(i == 0) {
                 pins.add(segA);
                 pins.add(segB);
